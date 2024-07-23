@@ -1,0 +1,37 @@
+table.PriceTable {
+    width: 100%;
+    border-spacing: 0;
+    margin: 10px auto;
+}
+
+table.PriceTable thead th, table.PriceTable tbody td {
+    padding: 10px;
+    border: 1px solid rgb(37 56 89 / 14%);
+}
+
+table.PriceTable thead th {
+    background: #499acf;
+    color: #fff;
+}
+.dropDownPrice {
+    text-align: right;
+    flex-direction: unset !important;
+    justify-content: right;
+}
+.dropDownPrice svg {
+    height: 17px;
+    width: 24px;
+    vertical-align: middle;
+}
+.dropDownPrice button {
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.main {
+    max-width: 1010px;
+    margin: auto;
+}
+
+.dropDownPrice > div {
+    max-width: 240px;
+}
