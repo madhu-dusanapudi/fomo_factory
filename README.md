@@ -29,6 +29,7 @@ Create a `.env` file in the root of the project and add the following environmen
 MONGO_URI=mongodb://localhost:27017/yourdbname
 PORT=5000
 COINGECKO_API_KEY=your_coingecko_api_key
+```
 
 
 3. npm start
@@ -45,14 +46,13 @@ COINGECKO_API_KEY=your_coingecko_api_key
     ```
 
 
-2.```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+2.```npm run dev```
+or
+```yarn dev```
+or
+```npm dev```
+or
+```bun dev```
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
